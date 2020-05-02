@@ -9,4 +9,16 @@ html {
 }
 
 /* Write your solution here */
+@media (min-width: 406px) and (max-width: 1170px) {
+#monkey{
+  position: fixed;
+          top: 0px;
+}
 
+}
+
+
+
+* For the monkey, use a combination of min-width and max-width to set a media
+query that will allow the monkey to jump up over the Spice Girls from screen
+size of 406px to 1170px keeping him safe from their affection.
